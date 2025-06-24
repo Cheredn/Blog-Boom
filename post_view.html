@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ post.title }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="post">
+        <h1>{{ post.title }}</h1>
+        <p>{{ post.content }}</p>
+        <p>By: {{ post.username }}</p>
+
+        {% if current_user.username == post.username or current_user.id == 7 %}
+            <form class="form_delete" method="POST" action="{{ url_for('delete_post', post_id=post.id) }}">
+                <button class="create-post-btn" type="submit">Delete post</button>
+            </form>
+        {% endif %}
+    </div>
+
+</body>
+</html>
