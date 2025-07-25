@@ -1,20 +1,20 @@
 # Blog Boom 🧨
 
-**Blog Boom** — это минималистичный веб-блог, где пользователи могут создавать аккаунты, публиковать посты, лайкать понравившиеся записи и просматривать ленту других пользователей.
+**Blog Boom** is a minimalist web blog where users can create accounts, publish posts, like posts they like, and browse other users' feeds.
 
-## 🚀 Возможности
+## 🚀 Possibilities
 
-- 🔐 Регистрация и вход в аккаунт (ник + пароль)
-- 📝 Публикация постов (текстовые записи)
-- ❤️ Лайки постов
-- 🗑️ Удаление своих постов
-- 🌐 Просмотр постов других пользователей
-- 👤 Привязка постов к автору (отображается ник)
+- 🔐 Register and log in to your account (nickname + password)
+- 📝 Publish posts (text entries)
+- ❤️ Like posts
+- 🗑️ Delete your posts
+- 🌐 View posts of other users
+- 👤 Link posts to the author (nickname is displayed)
 
-## 🛠️ Технологии
+## 🛠️ Technologies
 
-- **Flask** — веб-фреймворк на Python
-- **SQLite** — легковесная база данных
-- **Jinja2** — шаблонизатор HTML
-- **HTML / CSS** — интерфейс
-- **JavaScript (по желанию)** — динамика и обновления в реальном времени
+- **Flask** — Python web framework
+- **SQLite** — lightweight database
+- **Jinja2** — HTML templating engine
+- **HTML / CSS** — interface
+- **JavaScript (optional)** — dynamics and real-time updates
